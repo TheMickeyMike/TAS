@@ -1,6 +1,6 @@
 module Users
 	class UsersController < Grape::API
-		version 'v1', using: :path 
+		version 'v1', using: :path
 		format :json
 		formatter :json, Grape::Formatter::ActiveModelSerializers
 		use ::WineBouncer::OAuth2
@@ -16,7 +16,6 @@ module Users
 		 end
 		
 		resource :users do
-
 			desc 'Get infromation about resource owner'
 			oauth2
 			get :me, root: false, serializer: UserShortSerializer do

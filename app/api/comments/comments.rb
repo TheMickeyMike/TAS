@@ -8,15 +8,13 @@ module Comments
     		default_error_status 400
 
         helpers do
-   			# Find the user that owns the access token
-     			def current_resource_owner
-       			User.find(doorkeeper_token.resource_owner_id) if doorkeeper_token
-     			end
-    		end
+        		def current_resource_owner
+        			User.find(doorkeeper_token.resource_owner_id) if doorkeeper_token
+        		end
+        end
 
 
         resource :comments do
-          ##
           #curl -v -H "Content-Type: application/json" -H 'Authorization: Bearer <token>'
           #-d '{"post_id":"1","comment":"To jest moj nowy status"}'
           # -X POST http://localhost:3000/api/v1/comments/do_comment
@@ -35,7 +33,6 @@ module Comments
              })
           end
 
-          ##
           #curl -X GET http://localhost:3000/api/v1/comments/get_comments_for_post/<id komentarza>
           desc 'Wyswietlanie kometarza po id'
           #oauth2
@@ -58,8 +55,7 @@ module Comments
               end
           end
 
-          #Pobiera tylko kometarz o danym id
-          # curl -X GET http://localhost:3000/api/v1/comments/get_comments_for_post/<id posta>
+          #curl -X GET http://localhost:3000/api/v1/comments/get_comments_for_post/<id posta>
           resource :get_comments_for_post do
             desc 'Wyswietlanie kometarza do posta'
             #oauth2
@@ -90,7 +86,6 @@ module Comments
 
             end
           end
-
 
       end
     end

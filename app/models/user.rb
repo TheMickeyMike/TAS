@@ -1,17 +1,10 @@
 class User < ActiveRecord::Base
-  # Include default devise modules. Others available are:
-  # :confirmable, :lockable, :timeoutable and :omniauthable
-  devise :database_authenticatable, :registerable,
-    :recoverable, :rememberable, :trackable, :validatable
-
   attr_accessible :email, :password, :password_confirmation, :remember_me,
                   :first_name, :last_name, :profile_name, :full_name, :id
-  # attr_accessible :title, :body
   has_many :statuses
   has_many :images
 
   validates :first_name, presence: true
-
   validates :last_name, presence: true
 
   validates :profile_name, presence: true,
@@ -29,13 +22,13 @@ class User < ActiveRecord::Base
     profile_name
   end
 
-  has_many :statuses
   has_many :user_friendships
-  has_many :friends, -> { where(user_friendships: { state: 'accepted'}) }, through: :user_friendships
+  has_many :friends, -> { where(user_friendships: { state: 'accepted'}) },
+                          through: :user_friendships
   
-  has_many :pending_user_friendships, -> { where(user_friendships: {state: 'pending'})}, class_name: 'UserFriendship',
-                                      foreign_key: :user_id
-                                  
+  has_many :pending_user_friendships, -> { where(user_friendships: {state: 'pending'})},
+                                         class_name: 'UserFriendship',
+                                         foreign_key: :user_id
   has_many :pending_friends, through: :pending_user_friendships, source: :friend
 
   def gravatar_url

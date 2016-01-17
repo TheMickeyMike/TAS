@@ -88,7 +88,7 @@ module Statuses
 					#sprawdzanie czy są pliki i ew zamiana id
 					:image_id => Integer(params[:image_id]),
 					:document_id => Integer(params[:document_id])
-})
+					})
 			end
 
 			desc 'Delete a status'

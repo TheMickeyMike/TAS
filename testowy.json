@@ -21,3 +21,268 @@
     }
   }
 }
+
+/**/
+
+[{
+    "id": 9,
+    "content": "To jest moj nowy status z obrazem",
+    "image_id": 1,
+    "created_at": "2016-01-17T19:14:43.000Z",
+    "updated_at": "2016-01-17T19:14:43.000Z",
+    "user": {
+      "id": 1,
+      "profile_name": "rogemus",
+      "full_name": "Kacper Rogowski",
+      "email": "rogemus@gmail.com",
+      "gravatar_url": "http://gravatar.com/avatar/6e1ad3db0d2c12a9722cde487017a2ad"
+    },
+    "image": {
+      "img": "/system/images/imgs/000/000/001/original/wow.jpg?1453057188",
+      "image_path": "wow.jpg",
+      "user_id": 1,
+      "created_at": "2016-01-17T18:59:48.000Z",
+      "updated_at": "2016-01-17T18:59:48.000Z"
+    }
+  }, {
+    "id": 8,
+    "content": "To jest moj nowy status z obrazem",
+    "image_id": 1,
+    "created_at": "2016-01-17T19:13:48.000Z",
+    "updated_at": "2016-01-17T19:13:48.000Z",
+    "user": {
+      "id": 1,
+      "profile_name": "rogemus",
+      "full_name": "Kacper Rogowski",
+      "email": "rogemus@gmail.com",
+      "gravatar_url": "http://gravatar.com/avatar/6e1ad3db0d2c12a9722cde487017a2ad"
+    },
+    "image": {
+      "img": "/system/images/imgs/000/000/001/original/wow.jpg?1453057188",
+      "image_path": "wow.jpg",
+      "user_id": 1,
+      "created_at": "2016-01-17T18:59:48.000Z",
+      "updated_at": "2016-01-17T18:59:48.000Z"
+    }
+  }, {
+    "id": 7,
+    "content": "To jest moj nowy status z obrazem",
+    "image_id": 1,
+    "created_at": "2016-01-17T19:13:28.000Z",
+    "updated_at": "2016-01-17T19:13:28.000Z",
+    "user": {
+      "id": 1,
+      "profile_name": "rogemus",
+      "full_name": "Kacper Rogowski",
+      "email": "rogemus@gmail.com",
+      "gravatar_url": "http://gravatar.com/avatar/6e1ad3db0d2c12a9722cde487017a2ad"
+    },
+    "image": {
+      "img": "/system/images/imgs/000/000/001/original/wow.jpg?1453057188",
+      "image_path": "wow.jpg",
+      "user_id": 1,
+      "created_at": "2016-01-17T18:59:48.000Z",
+      "updated_at": "2016-01-17T18:59:48.000Z"
+    }
+  }, {
+    "id": 6,
+    "content": "To jest moj nowy status z obrazem",
+    "image_id": 1,
+    "created_at": "2016-01-17T19:12:51.000Z",
+    "updated_at": "2016-01-17T19:12:51.000Z",
+    "user": {
+      "id": 1,
+      "profile_name": "rogemus",
+      "full_name": "Kacper Rogowski",
+      "email": "rogemus@gmail.com",
+      "gravatar_url": "http://gravatar.com/avatar/6e1ad3db0d2c12a9722cde487017a2ad"
+    },
+    "image": {
+      "img": "/system/images/imgs/000/000/001/original/wow.jpg?1453057188",
+      "image_path": "wow.jpg",
+      "user_id": 1,
+      "created_at": "2016-01-17T18:59:48.000Z",
+      "updated_at": "2016-01-17T18:59:48.000Z"
+    }
+  }, {
+    "id": 5,
+    "content": "To jest moj nowy status z obrazem",
+    "image_id": 1,
+    "created_at": "2016-01-17T19:12:23.000Z",
+    "updated_at": "2016-01-17T19:12:23.000Z",
+    "user": {
+      "id": 1,
+      "profile_name": "rogemus",
+      "full_name": "Kacper Rogowski",
+      "email": "rogemus@gmail.com",
+      "gravatar_url": "http://gravatar.com/avatar/6e1ad3db0d2c12a9722cde487017a2ad"
+    },
+    "image": {
+      "img": "/system/images/imgs/000/000/001/original/wow.jpg?1453057188",
+      "image_path": "wow.jpg",
+      "user_id": 1,
+      "created_at": "2016-01-17T18:59:48.000Z",
+      "updated_at": "2016-01-17T18:59:48.000Z"
+    }
+  }, {
+    "id": 4,
+    "content": "To jest moj nowy status z obrazem",
+    "image_id": 1,
+    "created_at": "2016-01-17T19:11:20.000Z",
+    "updated_at": "2016-01-17T19:11:20.000Z",
+    "user": {
+      "id": 1,
+      "profile_name": "rogemus",
+      "full_name": "Kacper Rogowski",
+      "email": "rogemus@gmail.com",
+      "gravatar_url": "http://gravatar.com/avatar/6e1ad3db0d2c12a9722cde487017a2ad"
+    },
+    "image": {
+      "img": "/system/images/imgs/000/000/001/original/wow.jpg?1453057188",
+      "image_path": "wow.jpg",
+      "user_id": 1,
+      "created_at": "2016-01-17T18:59:48.000Z",
+      "updated_at": "2016-01-17T18:59:48.000Z"
+    }
+  }, {
+    "id": 3,
+    "content": "To jest moj nowy status z obrazem",
+    "image_id": 1,
+    "created_at": "2016-01-17T19:09:32.000Z",
+    "updated_at": "2016-01-17T19:09:32.000Z",
+    "user": {
+      "id": 1,
+      "profile_name": "rogemus",
+      "full_name": "Kacper Rogowski",
+      "email": "rogemus@gmail.com",
+      "gravatar_url": "http://gravatar.com/avatar/6e1ad3db0d2c12a9722cde487017a2ad"
+    },
+    "image": {
+      "img": "/system/images/imgs/000/000/001/original/wow.jpg?1453057188",
+      "image_path": "wow.jpg",
+      "user_id": 1,
+      "created_at": "2016-01-17T18:59:48.000Z",
+      "updated_at": "2016-01-17T18:59:48.000Z"
+    }
+  }, {
+    "id": 2,
+    "content": "To jest moj nowy status z obrazem",
+    "image_id": 0,
+    "created_at": "2016-01-17T19:09:10.000Z",
+    "updated_at": "2016-01-17T19:09:10.000Z",
+    "user": {
+      "id": 1,
+      "profile_name": "rogemus",
+      "full_name": "Kacper Rogowski",
+      "email": "rogemus@gmail.com",
+      "gravatar_url": "http://gravatar.com/avatar/6e1ad3db0d2c12a9722cde487017a2ad"
+    },
+    "image": null
+  }, {
+    "id": 1,
+    "content": "Januszo kontent",
+    "image_id": 0,
+    "created_at": "2016-01-16T01:04:15.000Z",
+    "updated_at": "2016-01-16T01:04:15.00100  4276  100  4276    0     0  11910      0 --:--:-- --:--:-- --:--:-- 12466d": 1,
+    "profile_name": "rogemus",
+    "full_name": "Kacper Rogowski",
+    "email": "rogemus@gmail.com",
+    "gravatar_url": "http://gravatar.com/avatar/6e1ad3db0d2c12a9722cde487017a2ad"
+  }, "image": null
+}]
+
+/**/
+{
+  "show_all_img_for_user": [{
+    "img": "/system/images/imgs/000/000/001/original/wow.jpg?1453057188",
+    "image_path": "wow.jpg",
+    "user_id": 1,
+    "created_at": "2016-01-17T18:59:48.000Z",
+    "updated_at": "2016-01-17T18:59:48.000Z"
+  }, {
+    "img": "/system/images/imgs/000/000/002/original/wow.jpg?1453057236",
+    "image_path": "wow.jpg",
+    "user_id": 1,
+    "created_at": "2016-01-17T19:00:36.000Z",
+    "updated_at": "2016-01-17T19:00:36.000Z"
+  }]
+}
+
+/**/
+{
+  "show_all_img": [{
+    "img": "/system/images/imgs/000/000/001/original/wow.jpg?1453057188",
+    "image_path": "wow.jpg",
+    "user_id": 1,
+    "created_at": "2016-01-17T18:59:48.000Z",
+    "updated_at": "2016-01-17T18:59:48.000Z"
+  }, {
+    "img": "/system/images/imgs/000/000/002/original/wow.jpg?1453057236",
+    "image_path": "wow.jpg",
+    "user_id": 1,
+    "created_at": "2016-01-17T19:00:36.000Z",
+    "updated_at": "2016-01-17T19:00:36.000Z"
+  }]
+}
+/**/
+{
+  "show_all_img_for_user": [{
+    "img": "/system/images/imgs/000/000/001/original/wow.jpg?1453057188",
+    "image_path": "wow.jpg",
+    "user_id": 1,
+    "created_at": "2016-01-17T18:59:48.000Z",
+    "updated_at": "2016-01-17T18:59:48.000Z",
+    "user": {
+      "id": 1,
+      "profile_name": "rogemus",
+      "full_name": "Kacper Rogowski",
+      "email": "rogemus@gmail.com",
+      "gravatar_url": "http://gravatar.com/avatar/6e1ad3db0d2c12a9722cde487017a2ad"
+    }
+  }, {
+    "img": "/system/images/imgs/000/000/002/original/wow.jpg?1453057236",
+    "image_path": "wow.jpg",
+    "user_id": 1,
+    "created_at": "2016-01-17T19:00:36.000Z",
+    "updated_at": "2016-01-17T19:00:36.000Z",
+    "user": {
+      "id": 1,
+      "profile_name": "rogemus",
+      "full_name": "Kacper Rogowski",
+      "email": "rogemus@gmail.com",
+      "gravatar_url": "http://gravatar.com/avatar/6e1ad3db0d2c12a9722cde487017a2ad"
+    }
+  }]
+}
+
+
+/**/
+{
+  "show_all_img": [{
+    "img": "/system/images/imgs/000/000/001/original/wow.jpg?1453057188",
+    "image_path": "wow.jpg",
+    "user_id": 1,
+    "created_at": "2016-01-17T18:59:48.000Z",
+    "updated_at": "2016-01-17T18:59:48.000Z",
+    "user": {
+      "id": 1,
+      "profile_name": "rogemus",
+      "full_name": "Kacper Rogowski",
+      "email": "rogemus@gmail.com",
+      "gravatar_url": "http://gravatar.com/avatar/6e1ad3db0d2c12a9722cde487017a2ad"
+    }
+  }, {
+    "img": "/system/images/imgs/000/000/002/original/wow.jpg?1453057236",
+    "image_path": "wow.jpg",
+    "user_id": 1,
+    "created_at": "2016-01-17T19:00:36.000Z",
+    "updated_at": "2016-01-17T19:00:36.000Z",
+    "user": {
+      "id": 1,
+      "profile_name": "rogemus",
+      "full_name": "Kacper Rogowski",
+      "email": "rogemus@gmail.com",
+      "gravatar_url": "http://gravatar.com/avatar/6e1ad3db0d2c12a9722cde487017a2ad"
+    }
+  }]
+}
