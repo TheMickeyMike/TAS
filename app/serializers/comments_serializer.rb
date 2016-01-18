@@ -3,5 +3,4 @@ class CommentsSerializer < ActiveModel::Serializer
 
   has_one :user, serializer: UserShortSerializer
   has_one :statuses, serializer: StatusesShortSerializer
-
 end

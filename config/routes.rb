@@ -7,6 +7,7 @@ TAS::Application.routes.draw do
   mount Files::FilesController => '/api'
   mount Attachments::AttachmentsController => '/api'
   mount Messages::MessagesController => '/'
+
   resources :user_friendships do
     member do
       put :accept
