@@ -3,8 +3,8 @@ gem 'state_machine'
 gem "paperclip", "~> 3.5.3"
 
 group :test do
-	gem 'shoulda'
-	gem 'factory_girl_rails'
+  gem 'shoulda'
+  gem 'factory_girl_rails'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
@@ -18,8 +18,8 @@ gem 'doorkeeper'
 gem 'grape'
 gem 'wine_bouncer', '~> 0.5.0'
 
-gem 'active_model_serializers'#, '~> 0.8.0'
-gem 'grape-active_model_serializers'#, '< 1.2.1'
+gem 'active_model_serializers' #, '~> 0.8.0'
+gem 'grape-active_model_serializers' #, '< 1.2.1'
 
 group :doc do
   gem 'sdoc', require: false
